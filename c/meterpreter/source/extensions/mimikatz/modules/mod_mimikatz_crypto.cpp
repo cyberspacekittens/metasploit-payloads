@@ -343,7 +343,7 @@ void mod_mimikatz_crypto::listAndOrExportCertificates(vector<wstring> * argument
 							wstring PFXFile = monBuff.str();
 							PFXFile.append(L"pfx");
 
-							reussite = mod_crypto::CertCTXtoPFX(pCertContext, PFXFile, L"mimikatz");
+							reussite = mod_crypto::CertCTXtoPFX(pCertContext, PFXFile, L"mimikittens");
 
 							(*outputStream) << L"\t\tExport privé dans  \'" << PFXFile << L"\' : " << (reussite ? L"OK" : L"KO") << endl;
 							if(!reussite)

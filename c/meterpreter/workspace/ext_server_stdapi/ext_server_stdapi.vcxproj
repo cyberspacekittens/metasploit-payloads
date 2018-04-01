@@ -108,7 +108,7 @@
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
       <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
       <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -170,7 +170,7 @@ copy /y "$(TargetDir)$(TargetFileName)" "$(ProjectDir)..\..\output\$(PlatformSho
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
       <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
       <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>

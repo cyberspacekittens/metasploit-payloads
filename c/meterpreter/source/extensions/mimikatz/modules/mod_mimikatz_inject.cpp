@@ -75,7 +75,7 @@ bool mod_mimikatz_inject::injectInPid(DWORD & pid, wstring & libPath, bool isCom
 			{
 				wstring monBuffer = L"";
 
-				monCommunicator = new mod_pipe(L"kiwi\\mimikatz");
+				monCommunicator = new mod_pipe(L"kiwi\\mimikittens");
 				(*outputStream) << L"Attente de connexion du client..." << endl;
 
 				if(monCommunicator->createServer())
