@@ -1,0 +1,11 @@
+GetProcAddressWithHash
+rand_
+atoi_
+strlen_
+TextChecksum8
+gen_random
+strcpy_
+strcat_
+mbstowcs_
+ExecutePayload
+TestThread
